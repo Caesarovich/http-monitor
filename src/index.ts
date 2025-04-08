@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import meow from "meow";
 import { createMonitor, type MonitorMode } from "./monitor";
 
