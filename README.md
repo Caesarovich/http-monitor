@@ -49,8 +49,11 @@ http-monitor --version
 
 - `<urls...>`: One or more URLs to monitor
 - `-i, --interval <seconds>`: Interval between checks in seconds (default: 10)
-- `-h, --help`: Show help information
-- `-V, --version`: Show version information
+- `-m, --mode <mode>`: Mode of operation (default: parallel)
+	- `parallel`: Check all URLs simultaneously
+	- `sequential`: Check URLs one after another
+- `--help`: Show help information
+- `--version`: Show version information
 
 ## Key Controls
 
