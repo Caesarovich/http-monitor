@@ -1,0 +1,28 @@
+{
+  "name": "http-monitor",
+  "version": "1.0.0",
+  "description": "CLI tool to monitor HTTP and HTTPS connections",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "http-monitor": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "node src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table": "^0.3.11",
+    "meow": "^13.2.0",
+    "boxen": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/cli-table": "^0.3.4",
+    "@types/node": "^20.9.4",
+    "typescript": "^5.3.2",
+    "@types/bun": "latest"
+  },
+  "private": true
+}
