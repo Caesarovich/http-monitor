@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 
 import meow from "meow";
-import { createMonitor, type MonitorMode } from "./monitor";
+import { type MonitorMode, createMonitor } from "./monitor";
 
 function parseArguments() {
 	return meow(

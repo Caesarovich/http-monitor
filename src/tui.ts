@@ -1,9 +1,9 @@
 import EventEmitter from "node:events";
 import * as process from "node:process";
 import boxen, { type Options as BoxenOptions } from "boxen";
-import widestLine from "widest-line";
 import Table from "cli-table";
 import stringWidth from "string-width";
+import widestLine from "widest-line";
 
 export type RenderConstraints = {
 	maxWidth: number;
