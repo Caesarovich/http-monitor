@@ -2,6 +2,16 @@
 
 A command-line tool to monitor HTTP and HTTPS connections to multiple addresses.
 
+## Note
+
+This project is made with [Bun](https://bun.sh/) and is designed to be run with the Bun runtime. It is not compatible with Node.js (I'm too lazy).
+
+I made this little project because I needed to monitor HTTP and HTTPS responses for multiple addresses to troubleshoot a network issue. I wanted to see the status of each address in real-time, and I thought it would be nice to have a simple CLI tool for that.
+
+I don't plan to add any more features, but if you have any suggestions or improvements, feel free to open an issue or a pull request.
+
+For now I also don't plan to publish it to npm, but if there's enough interest, I might consider it.
+
 ## Features
 
 - Monitor multiple URLs simultaneously
@@ -12,9 +22,8 @@ A command-line tool to monitor HTTP and HTTPS connections to multiple addresses.
 ## Installation
 
 ```bash
-npm install
-npm run build
-npm link # Optional, to make the command globally available
+bun install
+bun link
 ```
 
 ## Usage
