@@ -2,6 +2,8 @@
 
 A command-line tool to monitor HTTP and HTTPS connections to multiple addresses.
 
+![untitled](https://github.com/user-attachments/assets/908b513b-8912-46b1-b1ee-14791ab2c0a4)
+
 ## Note
 
 This project is made with [Bun](https://bun.sh/) and is designed to be run with the Bun runtime. It is not compatible with Node.js (I'm too lazy).
